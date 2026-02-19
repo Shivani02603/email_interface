@@ -1,0 +1,228 @@
+2026-02-18 22:35:08,524 - INFO - Connecting to Gmail IMAP...
+2026-02-18 22:51:27,010 - INFO - Connecting to Gmail IMAP...
+2026-02-18 22:51:28,485 - INFO - Connecting to Gmail SMTP...
+2026-02-18 22:51:30,654 - INFO - Press Ctrl+C to stop
+2026-02-18 22:52:26,197 - INFO - Starting Email to Email AI Agent
+2026-02-18 22:52:26,198 - INFO - Connecting to Gmail IMAP...
+2026-02-18 22:52:27,877 - INFO - Connecting to Gmail SMTP...
+2026-02-18 22:52:30,132 - INFO - Email connections established
+2026-02-18 22:52:30,133 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 22:52:30,134 - INFO - Press Ctrl+C to stop
+2026-02-18 22:53:18,133 - INFO - Starting Email to Email AI Agent
+2026-02-18 22:53:18,134 - INFO - Connecting to Gmail IMAP...
+2026-02-18 22:53:19,795 - INFO - Connecting to Gmail SMTP...
+2026-02-18 22:53:21,740 - INFO - Email connections established
+2026-02-18 22:53:21,741 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 22:53:21,741 - INFO - Press Ctrl+C to stop
+2026-02-18 22:55:24,303 - INFO - Starting Email to Email AI Agent
+2026-02-18 22:55:24,304 - INFO - Connecting to Gmail IMAP...
+2026-02-18 22:55:25,918 - INFO - Connecting to Gmail SMTP...
+2026-02-18 22:55:27,693 - INFO - Email connections established
+2026-02-18 22:55:27,694 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 22:55:27,695 - INFO - Press Ctrl+C to stop
+2026-02-18 22:55:57,194 - INFO - New email from Shivani Singh <shivu.bulbul26@gmail.com>: Test meeting request...
+2026-02-18 22:55:57,195 - INFO - Generating reply for: Test meeting request...
+2026-02-18 22:56:03,794 - INFO - Reply sent to Shivani Singh <shivu.bulbul26@gmail.com>
+2026-02-18 22:56:03,795 - INFO - Auto-reply sent successfully
+2026-02-18 22:59:40,576 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Availability check...
+2026-02-18 22:59:40,577 - INFO - Generating reply for: Availability check...
+2026-02-18 22:59:47,075 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-18 22:59:47,076 - INFO - Auto-reply sent successfully
+2026-02-18 23:25:30,451 - INFO - OpenAI client initialized successfully
+2026-02-18 23:25:30,452 - INFO - Starting Email to Email AI Agent
+2026-02-18 23:25:30,452 - INFO - Connecting to Gmail IMAP...
+2026-02-18 23:25:31,971 - INFO - Connecting to Gmail SMTP...
+2026-02-18 23:25:33,988 - INFO - Email connections established
+2026-02-18 23:25:33,989 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 23:25:33,989 - INFO - Press Ctrl+C to stop
+2026-02-18 23:27:07,524 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Dinner?...
+2026-02-18 23:27:07,525 - INFO - Generating reply for: Dinner?...
+2026-02-18 23:27:10,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-18 23:27:10,113 - INFO - Retrying request to /chat/completions in 0.453757 seconds
+2026-02-18 23:27:11,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-18 23:27:11,608 - INFO - Retrying request to /chat/completions in 0.850661 seconds
+2026-02-18 23:27:13,248 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-18 23:27:13,288 - ERROR - OpenAI reply generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-18 23:27:19,902 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-18 23:27:19,903 - INFO - Auto-reply sent successfully
+2026-02-18 23:33:40,341 - INFO - Google Gemini client initialized successfully
+2026-02-18 23:33:40,341 - INFO - Starting Email to Email AI Agent
+2026-02-18 23:33:40,342 - INFO - Connecting to Gmail IMAP...
+2026-02-18 23:33:42,006 - INFO - Connecting to Gmail SMTP...
+2026-02-18 23:33:43,905 - INFO - Email connections established
+2026-02-18 23:33:43,907 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 23:33:43,908 - INFO - Press Ctrl+C to stop
+2026-02-18 23:34:28,404 - INFO - Google Gemini client initialized successfully
+2026-02-18 23:34:28,404 - INFO - Starting Email to Email AI Agent
+2026-02-18 23:34:28,405 - INFO - Connecting to Gmail IMAP...
+2026-02-18 23:34:38,689 - INFO - Connecting to Gmail SMTP...
+2026-02-18 23:34:40,161 - INFO - Email connections established
+2026-02-18 23:34:40,161 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 23:34:40,162 - INFO - Press Ctrl+C to stop
+2026-02-18 23:35:14,249 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Office leave...
+2026-02-18 23:35:14,250 - INFO - Generating reply for: Office leave...
+2026-02-18 23:35:15,235 - ERROR - Gemini reply generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-18 23:35:21,903 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-18 23:35:21,904 - INFO - Auto-reply sent successfully
+2026-02-18 23:36:51,927 - INFO - Google Gemini client initialized successfully
+2026-02-18 23:36:51,928 - INFO - Starting Email to Email AI Agent
+2026-02-18 23:36:51,928 - INFO - Connecting to Gmail IMAP...
+2026-02-18 23:36:53,142 - INFO - Connecting to Gmail SMTP...
+2026-02-18 23:36:54,883 - INFO - Email connections established
+2026-02-18 23:36:54,884 - INFO - Monitoring emails every 30 seconds...
+2026-02-18 23:36:54,885 - INFO - Press Ctrl+C to stop
+2026-02-18 23:38:28,442 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Outting...
+2026-02-18 23:38:28,443 - INFO - Generating reply for: Outting...
+2026-02-18 23:38:28,684 - ERROR - Gemini reply generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-18 23:38:29,504 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Outting...
+2026-02-18 23:38:29,505 - INFO - Generating reply for: Outting...
+2026-02-18 23:38:29,630 - ERROR - Gemini reply generation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-18 23:38:35,235 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-18 23:38:35,236 - INFO - Auto-reply sent successfully
+2026-02-18 23:38:36,199 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-18 23:38:36,200 - INFO - Auto-reply sent successfully
+2026-02-19 00:48:07,291 - ERROR - Error reading emails: command: SELECT => socket error: EOF
+2026-02-19 00:48:09,026 - ERROR - Error reading emails: command: SELECT => socket error: EOF
+2026-02-19 00:48:37,296 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:48:39,027 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:49:07,297 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:49:09,028 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:49:37,300 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:49:39,030 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:50:07,302 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:50:09,032 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:50:37,304 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:50:39,034 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:51:07,307 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:51:09,037 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:51:37,308 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:51:39,039 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:52:07,309 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:52:09,041 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:52:37,311 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:52:39,042 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:53:07,312 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:53:08,339 - INFO - Google Gemini client initialized successfully
+2026-02-19 00:53:08,339 - INFO - Starting Email to Email AI Agent
+2026-02-19 00:53:08,340 - INFO - Connecting to Gmail IMAP...
+2026-02-19 00:53:09,044 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:53:10,066 - INFO - Connecting to Gmail SMTP...
+2026-02-19 00:53:12,011 - INFO - Email connections established
+2026-02-19 00:53:12,012 - INFO - Monitoring emails every 30 seconds...
+2026-02-19 00:53:12,012 - INFO - Press Ctrl+C to stop
+2026-02-19 00:53:37,314 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:53:39,046 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:53:54,478 - INFO - Stopping Email Agent...
+2026-02-19 00:53:55,533 - INFO - Cleanup completed
+2026-02-19 00:54:07,316 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:54:09,049 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:54:37,317 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:54:39,051 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:55:07,319 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:55:09,053 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:55:37,321 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:55:39,055 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:56:07,323 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:56:09,056 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:56:37,324 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:56:39,057 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:57:07,325 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:57:09,059 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:57:37,326 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:57:39,060 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:58:07,328 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:58:09,062 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:58:37,329 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:58:39,063 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:59:06,730 - INFO - Google Gemini (gemini-2.5-flash) initialized successfully
+2026-02-19 00:59:06,732 - INFO - Starting Email to Email AI Agent
+2026-02-19 00:59:06,733 - INFO - Connecting to Gmail IMAP...
+2026-02-19 00:59:07,330 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:59:08,776 - INFO - Connecting to Gmail SMTP...
+2026-02-19 00:59:09,064 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:59:10,723 - INFO - Email connections established
+2026-02-19 00:59:10,724 - INFO - Monitoring emails every 30 seconds...
+2026-02-19 00:59:10,725 - INFO - Press Ctrl+C to stop
+2026-02-19 00:59:37,332 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 00:59:39,067 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:00:07,334 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:00:09,070 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:00:37,335 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:00:39,072 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:01:07,336 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:01:09,074 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:01:37,338 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:01:39,076 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:02:07,339 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:02:09,077 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:02:37,340 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:02:39,079 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:02:56,516 - INFO - Google Gemini (gemini-2.5-flash) initialized successfully
+2026-02-19 01:02:56,517 - INFO - Starting Email to Email AI Agent
+2026-02-19 01:02:56,518 - INFO - Connecting to Gmail IMAP...
+2026-02-19 01:02:57,839 - INFO - Connecting to Gmail SMTP...
+2026-02-19 01:02:59,454 - INFO - Email connections established
+2026-02-19 01:02:59,454 - INFO - Monitoring emails every 30 seconds...
+2026-02-19 01:02:59,455 - INFO - Press Ctrl+C to stop
+2026-02-19 01:03:07,342 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:03:09,080 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:03:37,343 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:03:39,082 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:04:07,344 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:04:09,084 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:04:37,345 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:04:39,086 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:05:07,346 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:05:09,088 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:05:37,347 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:05:39,090 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:06:07,348 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:06:07,427 - INFO - New email from Shivani Singh <shivani.singh.sstc@gmail.com>: Meeting...
+2026-02-19 01:06:07,428 - INFO - Generating reply for: Meeting...
+2026-02-19 01:06:09,091 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:06:10,156 - INFO - Generated Gemini AI reply
+2026-02-19 01:06:16,819 - INFO - Reply sent to Shivani Singh <shivani.singh.sstc@gmail.com>
+2026-02-19 01:06:16,819 - INFO - Auto-reply sent successfully
+2026-02-19 01:06:37,349 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:06:39,094 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:07:07,351 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:07:09,095 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:07:37,352 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:07:39,098 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:08:07,353 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:08:09,101 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:08:37,355 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:08:39,103 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:09:07,356 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:09:09,106 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:09:37,357 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:09:39,108 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:10:07,358 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:10:09,110 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:10:37,359 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:10:39,112 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:11:07,361 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:11:09,115 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:11:37,362 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:11:39,116 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:12:07,364 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:12:09,119 - ERROR - Error reading emails: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-02-19 01:13:41,028 - INFO - Google Gemini (gemini-2.5-flash) initialized successfully
+2026-02-19 01:13:41,029 - INFO - Starting Email to Email AI Agent
+2026-02-19 01:13:41,030 - INFO - Connecting to Gmail IMAP...
+2026-02-19 01:13:42,461 - INFO - Connecting to Gmail SMTP...
+2026-02-19 01:13:45,944 - INFO - Email connections established
+2026-02-19 01:13:45,945 - INFO - Monitoring emails every 30 seconds...
+2026-02-19 01:13:45,945 - INFO - Press Ctrl+C to stop
+2026-02-19 01:16:21,971 - INFO - New email from Shivani Singh <shivu.bulbul26@gmail.com>: Immediate Decision Required: Security Risk vs Budg...
+2026-02-19 01:16:21,972 - INFO - Generating reply for: Immediate Decision Required: Security Risk vs Budg...
+2026-02-19 01:16:25,178 - INFO - Generated Gemini AI reply
+2026-02-19 01:16:32,344 - INFO - Reply sent to Shivani Singh <shivu.bulbul26@gmail.com>
+2026-02-19 01:16:32,345 - INFO - Auto-reply sent successfully
+2026-02-19 01:21:42,539 - INFO - New email from Shivani Singh <shivu.bulbul26@gmail.com>: Infrastructure Upgrade Needed – But Limited Team &...
+2026-02-19 01:21:42,578 - INFO - Generating reply for: Infrastructure Upgrade Needed – But Limited Team &...
+2026-02-19 01:21:46,208 - INFO - Generated Gemini AI reply
+2026-02-19 01:21:54,702 - INFO - Reply sent to Shivani Singh <shivu.bulbul26@gmail.com>
+2026-02-19 01:21:54,703 - INFO - Auto-reply sent successfully
+2026-02-19 03:52:22,778 - INFO - Stopping Email Agent...
+2026-02-19 03:52:23,542 - INFO - Cleanup completed
