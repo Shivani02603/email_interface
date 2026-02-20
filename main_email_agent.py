@@ -136,7 +136,8 @@ class EmailToEmailAgent:
             self.logger.info("Google Gemini (gemini-2.5-flash) initialized successfully")
             return True
         except Exception as e:
-            self.logger.error(f"Failed to setup Gemini: {e}")
+            # Don't log the actual error to prevent API key leaks
+            self.logger.error("Failed to setup Gemini - check API key configuration")
             return False
     
     def connect_email(self) -> bool:
