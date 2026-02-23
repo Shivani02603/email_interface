@@ -248,6 +248,23 @@ class EmailToEmailAgent:
         
         return body.strip()
     
+    def send_custom_email(self, recipient: str, subject: str, body: str) -> bool:
+        """Send a custom email to recipient with subject and body."""
+        if not self.smtp_conn:
+            self.connect_email()
+        try:
+            msg = MIMEMultipart()
+            msg['From'] = self.config['email']['email']
+            msg['To'] = recipient
+            msg['Subject'] = subject
+            msg.attach(MIMEText(body, 'plain'))
+            self.smtp_conn.sendmail(self.config['email']['email'], recipient, msg.as_string())
+            self.logger.info(f"Sent custom email to {recipient}")
+            return True
+        except Exception as e:
+            self.logger.error(f"Failed to send custom email: {e}")
+            return False
+
     def generate_ai_reply(self, email_data: Dict[str, Any]) -> str:
         """Generate AI reply to email"""
         ai_config = self.config.get('ai', {})
