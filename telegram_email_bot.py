@@ -1,8 +1,12 @@
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 from telegram import Update
 from main_email_agent import EmailToEmailAgent
+import yaml
 
-TELEGRAM_TOKEN = "8574876279:AAHyIEr89LHbVfhqD_fxm6H8nRVlBjzrJOU"
+# Load Telegram token from config.yaml
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+TELEGRAM_TOKEN = config.get("telegram", {}).get("bot_token", "")
 
 agent = EmailToEmailAgent(config_path="config.yaml")
 agent.connect_email()
